@@ -6,16 +6,17 @@ class CircleWidget extends StatefulWidget {
   final Widget child;
   final double radius;
 
-  CircleWidget({
+  const CircleWidget({
+    super.key,
     required this.child,
     required this.radius,
   });
 
   @override
-  _CircleWidgetState createState() => _CircleWidgetState();
+  CircleWidgetState createState() => CircleWidgetState();
 }
 
-class _CircleWidgetState extends State<CircleWidget>
+class CircleWidgetState extends State<CircleWidget>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
@@ -24,7 +25,7 @@ class _CircleWidgetState extends State<CircleWidget>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: Duration(seconds: 2),
+      duration: const Duration(seconds: 2),
       vsync: this,
     )..repeat();
     _animation = Tween(begin: 0.0, end: 2 * math.pi).animate(_controller);
@@ -38,7 +39,7 @@ class _CircleWidgetState extends State<CircleWidget>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: widget.radius * 2,
       height: widget.radius * 2,
       child: AnimatedBuilder(

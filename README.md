@@ -2,7 +2,6 @@
 
 This package can be used to rotate a widget in circle.
 
-## Example
 
 ```
 CircleWidget(
