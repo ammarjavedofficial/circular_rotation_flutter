@@ -1,7 +1,7 @@
 name: circular_rotation_flutter
 description: rotate widget in circle
 version: 1.0.0+1
-# homepage: 
+homepage: https://github.com/ammarjavedofficial/circular_rotation_flutter
 
 environment:
   sdk: '>=2.19.2 <3.0.0'

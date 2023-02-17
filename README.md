@@ -4,10 +4,12 @@ This package can be used to rotate a widget in circle.
 
 ## Example
 
+```
 CircleWidget(
     child: Icon(Icons.add_reaction_rounded, color: Colors.amber, size: 48,),
     radius: 100,
 ),
+```
 
 ## License
 
