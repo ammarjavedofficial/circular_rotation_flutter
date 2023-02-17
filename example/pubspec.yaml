@@ -1,6 +1,6 @@
 name: circular_rotation_flutter
 description: A very simple and easy to use package which can be used to rotate any widget in circle.
-version: 1.0.0+4
+version: 1.0.0+1
 homepage: https://github.com/ammarjavedofficial/circular_rotation_flutter
 
 environment:
@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  circular_rotation_flutter:
+  # When depending on this package from a real application you should use:
+  #   circular_rotation_flutter : ^x.y.z
 
 dev_dependencies:
   flutter_test:

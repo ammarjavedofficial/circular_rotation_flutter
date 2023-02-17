@@ -2,21 +2,21 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
-class CircleWidget extends StatefulWidget {
+class CircularRotationFlutter extends StatefulWidget {
   final Widget child;
   final double radius;
 
-  const CircleWidget({
+  const CircularRotationFlutter({
     super.key,
     required this.child,
     required this.radius,
   });
 
   @override
-  CircleWidgetState createState() => CircleWidgetState();
+  CircularRotationFlutterState createState() => CircularRotationFlutterState();
 }
 
-class CircleWidgetState extends State<CircleWidget>
+class CircularRotationFlutterState extends State<CircularRotationFlutter>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;

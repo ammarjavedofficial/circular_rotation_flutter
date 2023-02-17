@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CircleWidget(
+    return const CircularRotationFlutter(
       radius: 100,
       child: Icon(
         Icons.add_reaction_rounded,
