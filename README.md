@@ -10,11 +10,5 @@ CircleWidget(
 ),
 ```
 
-## License
-
-Circular Rotation Flutter is 
-
-- [MIT-licensed](https://docs.flutter.dev/get-started/codelab)
-
 ## Query
 You can contact me
