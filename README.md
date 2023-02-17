@@ -9,6 +9,7 @@ CircleWidget(
     radius: 100,
 ),
 ```
+![]('https://ammarjaved.com/wp-content/uploads/2023/02/circular_rotation_flutter-.gif')
 
 ## Query
 You can contact me
